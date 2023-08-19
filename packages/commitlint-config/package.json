@@ -1,0 +1,23 @@
+{
+  "name": "cd-commitlint-config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "description": "Git规范",
+  "keywords": [
+    "commit",
+    "lint"
+  ],
+  "author": "chendie",
+  "homepage": "https://github.com/chendie-dev/cd-spec#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chendie-dev/cd-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chendie-dev/cd-spec/issues"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^6.1.0"
+  }
+}

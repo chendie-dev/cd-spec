@@ -1,0 +1,23 @@
+{
+  "name": "cd-markdownlint-config",
+  "version": "0.0.0",
+  "main": "index.json",
+  "description": "文档规范",
+  "keywords": [
+    "markdown",
+    "lint"
+  ],
+  "author": "chendie",
+  "homepage": "https://github.com/chendie-dev/cd-spec#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chendie-dev/cd-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chendie-dev/cd-spec/issues"
+  },
+  "peerDependencies": {
+    "markdownlint": "^0.28.1"
+  }
+}
