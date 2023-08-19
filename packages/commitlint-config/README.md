@@ -9,7 +9,7 @@
 使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)：
 
 ```bash
-npm install encode-fe-commitlint-config @commitlint/cli --save-dev
+npm install cd-commitlint-config @commitlint/cli --save-dev
 ```
 
 ## 使用
@@ -18,7 +18,7 @@ npm install encode-fe-commitlint-config @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-	extends: ['encode-fe-commitlint-config'],
+	extends: ['cd-commitlint-config'],
 };
 ```
 
@@ -32,7 +32,7 @@ module.exports = {
 npm install husky --save-dev
 ```
 
-然后执行添加`commit-msg`:
+然后执行添加 `commit-msg`:
 
 ```bash
 npx husky add .husky/commit-msg 'npx commitlint --edit $1'
