@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "CSS规范",
   "author": "chendie",
   "homepage": "https://github.com/chendie-dev/cd-spec#readme",
@@ -10,9 +10,6 @@
     "lint"
   ],
   "main": "index.js",
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chendie-dev/cd-spec.git"
