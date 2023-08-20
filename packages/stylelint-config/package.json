@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config",
+  "name": "cd-stylelint-config",
   "version": "0.0.5",
   "description": "CSS规范",
   "author": "chendie",
@@ -29,5 +29,5 @@
     "stylelint": "^15.10.3",
     "stylelint-scss": "^5.1.0"
   },
-  "gitHead": "231bdb98aef12a8e5f85bcad7938b9e18bef7a61"
+  "gitHead": "4b3bc9fc3b864ff2a8b4d65795097dd90669485b"
 }
