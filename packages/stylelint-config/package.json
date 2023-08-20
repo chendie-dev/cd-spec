@@ -1,0 +1,35 @@
+{
+  "name": "stylelint-config",
+  "version": "0.0.1",
+  "description": "CSS规范",
+  "author": "chendie",
+  "homepage": "https://github.com/chendie-dev/cd-spec#readme",
+  "license": "ISC",
+  "keywords": [
+    "style",
+    "lint"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chendie-dev/cd-spec.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/chendie-dev/cd-spec/issues"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "stylelint": "^15.10.3",
+    "stylelint-scss": "^5.1.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^15.10.3",
+    "stylelint-scss": "^5.1.0"
+  }
+}

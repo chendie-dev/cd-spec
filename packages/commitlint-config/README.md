@@ -1,4 +1,4 @@
-# `encode-fe-commitlint-config`
+# `cd-commitlint-config`
 
 > Git 规范
 
