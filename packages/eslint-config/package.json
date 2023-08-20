@@ -1,6 +1,6 @@
 {
   "name": "eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "JavaScript TypeScript Node 规范",
   "author": "chendie",
   "homepage": "https://github.com/chendie-dev/cd-spec#readme",
