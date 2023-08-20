@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "CSS规范",
   "author": "chendie",
   "homepage": "https://github.com/chendie-dev/cd-spec#readme",
@@ -31,5 +31,6 @@
   "peerDependencies": {
     "stylelint": "^15.10.3",
     "stylelint-scss": "^5.1.0"
-  }
+  },
+  "gitHead": "231bdb98aef12a8e5f85bcad7938b9e18bef7a61"
 }
