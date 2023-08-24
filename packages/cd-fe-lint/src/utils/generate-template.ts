@@ -25,6 +25,7 @@ const mergeVscodeConfig = (filePath: string, content: string) => {
 }
 
 export default (cwd: string, config: Record<string, any>, vscode?: boolean) => {
+    console.log('configggggg',config)
     const templatePath = path.resolve(__dirname, '../config');
     const templates = glob.sync(`${vscode ? 'vscode' : '**'}/*.ejs`, { cwd: templatePath });
     for (const name of templates) {

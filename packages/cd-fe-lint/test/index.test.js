@@ -17,7 +17,7 @@ describe('init', () => {
     await init({
       cwd: outputPath,
       checkVersionUpdate: false,
-      eslintType: 'index',
+      eslintType: 'typescript/react',
       enableStylelint: true,
       enableMarkdownlint: true,
       enablePrettier: true,
