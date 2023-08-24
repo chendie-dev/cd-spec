@@ -1,3 +1,13 @@
+---
+title: cd-fe-lint
+categories:
+  - 脚手架规范
+tags:
+  - 脚手架规范
+author:
+  name: cd
+  link: 
+---
 # cd-fe-lint
 
 `cd-fe-lint` 是[前端编码规范工程化](https://encode-studio-fe.github.io/fe-spec/)的配套 Lint 工具，可以为项目一键接入规范、一键扫描和修复规范问题，保障项目的编码规范和代码质量。
@@ -8,7 +18,7 @@
 
 | 规范                                                      | Lint 工具                                               | npm 包                                                                      |
 | --------------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------------------------- |
-| JavaScript 编码规范 ``TypeScript 编码规范`` Node 编码规范 | [ESLint](https://eslint.org/)                              | [cd-eslint-config](https://www.npmjs.com/package/cd-eslint-config)             |
+| JavaScript 编码规范 ``TypeScript 编码规范`` Node 编码规范 | [ESLint](https://eslint.org/)                              | [cd-fe-eslint-config](https://www.npmjs.com/package/cd-eslint-config)          |
 | CSS 编码规范                                              | [stylelint](https://stylelint.io/)                         | [cd-stylelint-config](https://www.npmjs.com/package/cd-stylelint-config)       |
 | Git 规范                                                  | [commitlint](https://commitlint.js.org/#/)                 | [cd-commitlint-config](https://www.npmjs.com/package/cd-commitlint-config)     |
 | 文档规范                                                  | [markdownlint](https://github.com/DavidAnson/markdownlint) | [cd-markdownlint-config](https://www.npmjs.com/package/cd-markdownlint-config) |

@@ -20,12 +20,12 @@
 
 我们引入了多个业界流行的 `Linter` 作为规约文档的配套工具，并根据规约内容定制了对应的规则包，它们包括：
 
-| 规约                                                      | Lint 工具                                               | npm 包                                                                             |
-| --------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| JavaScript 编码规范 ``TypeScript 编码规范`` Node 编码规范 | [ESLint](https://eslint.org/)                              | [cd-eslint-config](https://www.npmjs.com/package/encode-fe-eslint-config)             |
-| CSS 编码规范                                              | [stylelint](https://stylelint.io/)                         | [cd-stylelint-config](https://www.npmjs.com/package/encode-fe-stylelint-config)       |
-| Git 规范                                                  | [commitlint](https://commitlint.js.org/#/)                 | [cd-commitlint-config](https://www.npmjs.com/package/encode-fe-commitlint-config)     |
-| 文档规范                                                  | [markdownlint](https://github.com/DavidAnson/markdownlint) | [cd-markdownlint-config](https://www.npmjs.com/package/encode-fe-markdownlint-config) |
+| 规约                                                      | Lint 工具                                               | npm 包                                                                      |
+| --------------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------------------------- |
+| JavaScript 编码规范 ``TypeScript 编码规范`` Node 编码规范 | [ESLint](https://eslint.org/)                              | [cd-eslint-config](https://www.npmjs.com/package/cd-eslint-config)             |
+| CSS 编码规范                                              | [stylelint](https://stylelint.io/)                         | [cd-stylelint-config](https://www.npmjs.com/package/cd-stylelint-config)       |
+| Git 规范                                                  | [commitlint](https://commitlint.js.org/#/)                 | [cd-commitlint-config](https://www.npmjs.com/package/cd-commitlint-config)     |
+| 文档规范                                                  | [markdownlint](https://github.com/DavidAnson/markdownlint) | [cd-markdownlint-config](https://www.npmjs.com/package/cd-markdownlint-config) |
 
 [cd-spec-cli](https://www.npmjs.com/package/encode-fe-spec-cli) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规约的成本。
 

@@ -1,6 +1,6 @@
-import { defineConfig4CustomTheme, UserPlugins } from 'vuepress/config';
+import { UserPlugins } from 'vuepress/config';
 
-export default defineConfig4CustomTheme({
+export default {
 	locales: {
 		'/': {
 			lang: 'zh-CN',
@@ -29,6 +29,20 @@ export default defineConfig4CustomTheme({
 					{ text: '文档规范', link: '/engineering/doc.md' },
 					{ text: 'CHANGELOG 规范', link: '/engineering/changelog.md' },
 				],
+			},
+			{
+				text: 'NPM包',
+				items: [
+					{ text: 'cd-eslint-config', link: '/npm/eslint.md' },
+					{ text: 'cd-stylelint-config', link: '/npm/stylelint.md' },
+					{ text: 'cd-commitlint-config', link: '/npm/commitlint.md' },
+					{ text: 'cd-markdownlint-config', link: '/npm/markdownlint.md' },
+					{ text: 'cd-eslint-plugin', link: '/npm/eslint-plugin.md' },
+				],
+			},
+			{
+				text: '脚手架',
+				items: [{ text: 'cd-fe-lint', link: '/cli/cd-fe-lint.md' }],
 			},
 		],
 		sidebar: [
@@ -82,7 +96,7 @@ export default defineConfig4CustomTheme({
 		footer: {
 			createYear: 2023,
 			copyrightInfo:
-				'encode studio | <a href="https://github.com/chendie-dev/cd-spec" target="_blank">github</a>',
+				'cd studio | <a href="https://github.com/chendie-dev/cd-spec" target="_blank">github</a>',
 		},
 
 		extendFrontmatter: {
@@ -126,4 +140,4 @@ export default defineConfig4CustomTheme({
 		],
 	],
 	extraWatchFiles: ['.vuepress/config.ts'],
-});
+};

@@ -5,12 +5,9 @@ categories:
 tags:
     - 工程规范
 author:
-    name: 澄怀
-    link: https://github.com/encode-studio-fe/fe-spec
+    name: cd
+    link: 
 ---
-
-# CHANGELOG 规范
-
 ## 前言
 
 作为一个开发者，我必须为我的项目维护一个更新日志（以下简称 `Changelog`）吗？
@@ -39,7 +36,6 @@ author:
   <!-- good -->
   CHANGELOG.md
   ```
-
 - 1.2.【强制】Changelog 文件必须是使用标准 Markdown 语法的文本文件，并以 `.md` 作为后缀
 
   ```markdown
@@ -50,7 +46,6 @@ author:
   <!-- good -->
   CHANGELOG.md
   ```
-
 - 1.3.【强制】`Changelog` 文件必须存放在项目根目录下，和 `README.md`、`CONTRIBUTING.md` 等并列
 
 ## 2. 格式
@@ -86,7 +81,6 @@ author:
   # 更新日志
   # Change Log
   ```
-
 - 2.2【强制】`Changelog` 内容按版本号降序排列，最新版本放在最前面
 
   ```markdown
@@ -98,7 +92,6 @@ author:
   ## 2.0.0
   ## 1.0.0
   ```
-
 - 2.3.【强制】版本号 `version` 需遵循 [SemVer 规范](https://semver.org/lang/zh-CN/)
 
   ```markdown
@@ -119,7 +112,6 @@ author:
   ## 1.0.0-alpha.1
   ## 1.0.0-alpha
   ```
-
 - 2.4.【推荐】版本号增加一个超链接，指向当前版本和上一个版本之间的 `diff
 
   ```markdown
@@ -129,7 +121,6 @@ author:
   <!-- good -->
   ## [2.0.0](https://version-diff-url)
   ```
-
 - 2.5.【强制】更新日期 `date` 采用 `yyyy-MM-dd` 格式
 
   ```markdown
@@ -140,7 +131,6 @@ author:
   <!-- good -->
   ## [2.0.0](https://version-diff-url) (2020-09-05)
   ```
-
 - 2.6.【推荐】更新类型 `type` 与 Git message header 中的 [`type`](./1.git.md#1.3.1-type) 相关联，可以不一一对应
 
   `type` 用以说明更新的类型，推荐值如下：
@@ -153,7 +143,6 @@ author:
   - 即将删除（`Deprecation Warnings`）：即将废弃功能。
   - 删除（`Removed`）：已删除的功能。
   - 重大变更（`Breaking Changes`）：破坏性变动。
-
 - 2.7.【推荐】更新描述 `desc` 内容需要注意以下几点：
 
   1. 使用完整的句子。即在标点方面遵循一般的文档格式规约；如果使用英语，则句首大写。
@@ -163,7 +152,7 @@ author:
 
 ## 样本示例
 
-  ```markdown
+```markdown
   # 更新日志
 
   ## [4.6.0](https://github.com/ant-design/ant-design/compare/4.5.4...4.6.0) (2020-08-23)
@@ -192,7 +181,7 @@ author:
 
   - 修复 Form.Item 在 `hidden` 时引用 Less 样式时失效的问题。[#26152](https://github.com/ant-design/ant-design/pull/26152)
 
-  ```
+```
 
 ## 参考资料
 

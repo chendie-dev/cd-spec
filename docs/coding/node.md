@@ -5,10 +5,9 @@ categories:
 tags:
     - 编码规范
 author:
-    name: 澄怀
-    link: https://github.com/encode-studio-fe/fe-spec
+    name: cd
+    link: 
 ---
-
 # Node 编码规范
 
 :::tip
@@ -276,7 +275,6 @@ async function callStat() {
 ```
 
 - 3.6.【推荐】使用 Node.js 原生 `Promise`，而不是三方库如 `bluebird`。
-
 - 3.7.【推荐】在类方法中返回 `this` 方便链式调用。
 
 ```javascript
