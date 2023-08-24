@@ -19,6 +19,7 @@ const chooseEslintType = async (): Promise<string> => {
         message: `Step ${++step}.请选择项目的语言（JS/TS）和框架类型（Vue/React）`,
         choices: PROJECT_TYPES
     })
+    console.log('typeeeee',type)
     return type;
 }
 
