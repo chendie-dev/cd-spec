@@ -68,9 +68,6 @@ export const MARKDOWN_LINT_IGNORE_PATTERN: string[] = [
   'lib/',
 ];
 
-/**
- * 项目类型
- */
 export const PROJECT_TYPES: Array<{ name: string; value: string }> = [
   {
     name: '未使用 React、Vue、Node.js 的项目（JavaScript）',
