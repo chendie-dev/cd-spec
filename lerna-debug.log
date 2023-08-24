@@ -1,0 +1,98 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '6.6.2',
+0 silly argv   '$0': 'node_modules/lerna/dist/cli.js'
+0 silly argv }
+1 notice cli v6.6.2
+2 verbose rootPath /Users/chendie/Documents/project/cd-spec
+3 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+4 verbose session 25460253656d0226
+5 verbose user-agent lerna/6.6.2/node@v16.17.1+arm64 (darwin)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.6.2' }
+7 verbose rootPath /Users/chendie/Documents/project/cd-spec
+8 verbose packageConfigs Package manager 'pnpm' detected. Resolving packages using 'pnpm-workspace.yaml'.
+9 info current version 1.0.1
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly getCurrentBranch
+13 verbose currentBranch main
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "v1.0.1-1-gf182fd9" => {"lastTagName":"v1.0.1","lastVersion":"v1.0.1","refCount":"1","sha":"f182fd9","isDirty":false}
+20 info Looking for changed packages since v1.0.1
+21 silly checking diff packages/cd-fe-lint
+22 silly found diff in packages/cd-fe-lint/src/utils/constants.ts
+23 verbose filtered diff [ 'packages/cd-fe-lint/src/utils/constants.ts' ]
+24 silly checking diff packages/commitlint-config
+25 silly no diff found in cd-commitlint-config
+26 silly checking diff packages/eslint-config
+27 silly no diff found in cd-eslint-config
+28 silly checking diff packages/eslint-plugin
+29 silly no diff found in cd-eslint-plugin
+30 silly checking diff packages/markdownlint-config
+31 silly no diff found in cd-markdownlint-config
+32 silly checking diff packages/stylelint-config
+33 silly no diff found in cd-stylelint-config
+34 verbose updated cd-fe-lint
+35 verbose git-describe undefined => "v1.0.1-1-gf182fd9"
+36 silly git-describe parsed => {"lastTagName":"v1.0.1","lastVersion":"v1.0.1","refCount":"1","sha":"f182fd9","isDirty":false}
+37 info execute Skipping releases
+38 silly lifecycle No script for "preversion" in "root", continuing
+39 silly lifecycle No script for "preversion" in "cd-fe-lint", continuing
+40 verbose version cd-fe-lint has no lockfile. Skipping lockfile update.
+41 silly lifecycle No script for "version" in "cd-fe-lint", continuing
+42 silly lifecycle No script for "version" in "root", continuing
+43 silly gitAdd [ 'packages/cd-fe-lint/package.json', 'lerna.json' ]
+44 silly gitCommit chore: publish v1.0.2
+45 verbose git [ 'commit', '-m', 'chore: publish v1.0.2' ]
+46 silly gitTag v1.0.2 git tag %s -m %s
+47 verbose git [ 'tag', 'v1.0.2', '-m', 'v1.0.2' ]
+48 silly lifecycle No script for "postversion" in "cd-fe-lint", continuing
+49 silly lifecycle No script for "postversion" in "root", continuing
+50 info git Pushing tags...
+51 silly gitPush origin main
+52 info publish Publishing packages to npm...
+53 notice Skipping all user and access validation due to third-party registry
+54 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+55 warn ENOLICENSE Package cd-fe-lint is missing a license.
+55 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+55 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+56 silly getCurrentSHA
+57 verbose getCurrentSHA 87fbf2abf81ceb46d56ee21c3950425f0f004871
+58 warn lifecycle Skipping root "prepublish" because it has already been called
+59 silly lifecycle "prepare" starting in "root"
+60 info lifecycle root@undefined~prepare: root@undefined
+61 silly lifecycle "prepare" finished in "root"
+62 silly lifecycle No script for "prepublishOnly" in "root", continuing
+63 silly lifecycle No script for "prepack" in "root", continuing
+64 verbose pack-directory packages/cd-fe-lint
+65 silly lifecycle No script for "prepublish" in "cd-fe-lint", continuing
+66 silly lifecycle No script for "prepare" in "cd-fe-lint", continuing
+67 silly lifecycle "prepublishOnly" starting in "cd-fe-lint"
+68 info lifecycle cd-fe-lint@1.0.2~prepublishOnly: cd-fe-lint@1.0.2
+69 silly lifecycle "prepublishOnly" finished in "cd-fe-lint"
+70 silly lifecycle No script for "prepack" in "cd-fe-lint", continuing
+71 silly lifecycle No script for "postpack" in "cd-fe-lint", continuing
+72 verbose packed packages/cd-fe-lint
+73 silly lifecycle No script for "postpack" in "root", continuing
+74 verbose publish cd-fe-lint
+75 silly FetchError: network timeout at: https://registry.npmjs.org/cd-fe-lint
+75 silly     at Timeout.<anonymous> (/Users/chendie/Documents/project/cd-spec/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:108:18)
+75 silly     at listOnTimeout (node:internal/timers:559:17)
+75 silly     at processTimers (node:internal/timers:502:7)
+75 silly  FetchError: network timeout at: https://registry.npmjs.org/cd-fe-lint
+75 silly     at Timeout.<anonymous> (/Users/chendie/Documents/project/cd-spec/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:108:18)
+75 silly     at listOnTimeout (node:internal/timers:559:17)
+75 silly     at processTimers (node:internal/timers:502:7) {
+75 silly   code: 'FETCH_ERROR',
+75 silly   errno: 'FETCH_ERROR',
+75 silly   type: 'request-timeout'
+75 silly }
+76 error FETCH_ERROR network timeout at: https://registry.npmjs.org/cd-fe-lint
+77 error FetchError: network timeout at: https://registry.npmjs.org/cd-fe-lint
+77 error     at Timeout.<anonymous> (/Users/chendie/Documents/project/cd-spec/node_modules/.pnpm/minipass-fetch@3.0.4/node_modules/minipass-fetch/lib/index.js:108:18)
+77 error     at listOnTimeout (node:internal/timers:559:17)
