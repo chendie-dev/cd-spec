@@ -1,6 +1,6 @@
 {
   "name": "cd-eslint-plugin",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "eslint插件",
   "author": "chendie",
   "files": [

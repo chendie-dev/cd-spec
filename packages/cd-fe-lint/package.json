@@ -1,6 +1,6 @@
 {
   "name": "cd-fe-lint",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "前端编码规范工程化脚手架",
   "bin": {
     "cd-fe-lint": "lib/cli.js"
@@ -49,15 +49,15 @@
     "@commitlint/cli": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "cd-commitlint-config": "workspace:^",
+    "cd-eslint-config": "workspace:^",
+    "cd-markdownlint-config": "workspace:^",
+    "cd-stylelint-config": "workspace:^",
     "chalk": "^4.1.0",
     "command-exists": "^1.2.9",
     "commander": "^6.2.1",
     "cross-spawn": "^7.0.3",
     "ejs": "^3.1.5",
-    "cd-commitlint-config": "workspace:^",
-    "cd-eslint-config": "workspace:^",
-    "cd-markdownlint-config": "workspace:^",
-    "cd-stylelint-config": "workspace:^",
     "eslint": "^8.7.0",
     "eslint-config-egg": "^10.0.0",
     "eslint-config-prettier": "^8.3.0",

@@ -1,6 +1,6 @@
 {
   "name": "cd-commitlint-config",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "main": "index.js",
   "description": "Git规范",
   "keywords": [
