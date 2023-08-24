@@ -78,7 +78,7 @@ export default async (options: InitOptions) => {
     if (options.eslintType && PROJECT_TYPES.find(choice => choice.value === options.eslintType)) {
         config.eslintType = options.eslintType
     } else {
-        config.eslintConfig = await chooseEslintType();
+        config.eslintType = await chooseEslintType();
     }
 
     //初始化enableStylelint

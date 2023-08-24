@@ -24,7 +24,7 @@ const mergeVscodeConfig = (filePath: string, content: string) => {
     }
 }
 
-export default (cwd: string, data: Record<string, any>, vscode?: boolean) => {
+export default (cwd: string, config: Record<string, any>, vscode?: boolean) => {
     const templatePath = path.resolve(__dirname, '../config');
     const templates = glob.sync(`${vscode ? 'vscode' : '**'}/*.ejs`, { cwd: templatePath });
     for (const name of templates) {
@@ -34,7 +34,7 @@ export default (cwd: string, data: Record<string, any>, vscode?: boolean) => {
             stylelintExt: STYLELINT_FILE_EXT,
             stylelintIgnores: STYLELINT_IGNORE_PATTERN,
             markdownLintIgnores: MARKDOWN_LINT_IGNORE_PATTERN,
-            ...data
+            ...config
         });
 
         if (/^_vscode/.test(name)) {
