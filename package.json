@@ -9,6 +9,7 @@
     "build": "lerna run build --stream",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
+    "test": "lerna run test",
     "deploy": "bash deploy.sh",
     "publish": "lerna publish",
     "lint": "markdownlint README.md",
