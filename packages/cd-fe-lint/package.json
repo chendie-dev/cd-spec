@@ -21,7 +21,6 @@
     "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
   },
   "keywords": [
-    "encode",
     "lint",
     "cli"
   ],
@@ -87,14 +86,14 @@
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0"
   },
-  "author": "chenghuai",
-  "homepage": "https://github.com/encode-studio-fe/fe-spec#readme",
+  "author": "chendie",
+  "homepage": "https://github.com/chendie-dev/cd-spec#readme",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/encode-studio-fe/fe-spec.git"
+    "url": "git+https://github.com/chendie-dev/cd-spec.git"
   },
   "bugs": {
-    "url": "https://github.com/encode-studio-fe/fe-spec/issues"
+    "url": "https://github.com/chendie-dev/cd-spec/issues"
   }
 }

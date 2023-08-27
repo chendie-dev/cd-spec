@@ -4,7 +4,7 @@ import markdownlint from 'markdownlint'
 
 export interface InitOptions {
   cwd: string;
-  // 是否检查并升级 encode-fe-lint 的版本
+  // 是否检查并升级 cd-fe-lint 的版本
   checkVersionUpdate: boolean;
   // 是否需要自动重写 lint 配置
   rewriteConfig?: boolean;
@@ -37,7 +37,7 @@ export interface ScanOptions {
   fix?: boolean;
   // 生成报告文件
   outputReport?: boolean;
-  // scan 时指定 encode-fe-lint config，优先级高于 encode-fe-lint.config.js
+  // scan 时指定 cd-fe-lint config，优先级高于 cd-fe-lint.config.js
   config?: Config;
 }
 
